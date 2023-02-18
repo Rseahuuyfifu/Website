@@ -23,14 +23,14 @@ header h1 {
 }
 
 .logo img {
-    max-height: 50px;
+    max-height: 70px;
     max-width: 100%;
 }
 
 nav {
     display: inline-block;
     float: right;
-    margin: 20px;
+    margin: 40px;
 }
 
 nav ul {
@@ -69,7 +69,7 @@ header.scroll {
     .logo {
         max-width: 100%;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
         align-items: center;
